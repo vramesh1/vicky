@@ -4,6 +4,6 @@ Vicky uses speech recognition to accept input from Bloomberg users, recognizes a
 
 Examples of supported instructions :
 
-"Send message to Cash Team"
-"Show Calendar"
-"Show Flag for Giants"
+- "Send message to Cash Team"
+- "Show Calendar"
+- "Show Flag for Giants"
