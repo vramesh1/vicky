@@ -4,15 +4,11 @@
 	console.log("text to process : " + text);
 	
 	var bbCommand = null;
-	
-	if (text.indexOf("send message") !== -1)
+		
+	if (text.indexOf("send message to") === 0)
 	{
-		bbCommand = "MSG ME";
-	}
-	
-	if (text.indexOf("send message to cash team") !== -1)
-	{
-		bbCommand = "MSG CASHTEAM";
+		var recipient = text.substring(15);
+		bbCommand = "MSG" + recipient;
 	}
 	else if (text.indexOf("show calendar") !== -1)
 	{
@@ -23,7 +19,21 @@
 		var flagSearch = text.substring(13);
 		bbCommand = "FLAG " + flagSearch;
 	}
-	
+	else if (text.indexOf("run") === 0)
+	{
+		var command = text.substring(4);
+		bbCommand = command;
+	}
+	else if (text.indexOf("show chart for") === 0)
+	{
+		var chartSearch = text.substring(14);
+		bbCommand = "CHART " + chartSearch;
+	}
+	else if (text.indexOf("show function of the day") !== -1)
+	{
+		bbCommand = "NI ODD";
+	}
+				
 	console.log("bbCommand : " + bbCommand);
 	
 	if (bbCommand)
