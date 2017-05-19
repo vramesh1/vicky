@@ -4,13 +4,13 @@ Vicky uses speech recognition to accept input from Bloomberg users, recognizes a
 
 Examples of supported instructions :
 
-- "Send Message to Michael Bloomberg"
-- "Show Calendar"
-- "Show Flag for Giants"
-- "Show Function of the day"
-- "Show Chart for Amazon peers"
-- "Run TOP"
+- *"Send Message to Michael Bloomberg"*
+- *"Show Calendar"*
+- *"Show Flag for Giants"*
+- *"Show Function of the day"*
+- *"Show Chart for Amazon peers"*
+- *"Run TOP"*
 
-Check Vicky out at 
+Check Vicky out at
 http://heyvicky.herokuapp.com/
 
