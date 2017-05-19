@@ -11,3 +11,6 @@ Examples of supported instructions :
 - "Show Chart for Amazon peers"
 - "Run TOP"
 
+Check Vicky out at 
+http://heyvicky.herokuapp.com/
+
