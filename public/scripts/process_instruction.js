@@ -33,7 +33,12 @@
 	{
 		bbCommand = "NI ODD";
 	}
-				
+	else if (text.indexOf("trade complete") === 0)
+    {
+		var chartSearch = text.substring(14);
+		bbCommand = "TC NLP " + chartSearch;
+    }
+
 	console.log("bbCommand : " + bbCommand);
 	
 	if (bbCommand)

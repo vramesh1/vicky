@@ -15,7 +15,7 @@
 .speech
 {
     border      : 1px solid #DDD;
-    width       : 310px ;
+    width       : 400px ;
     padding     : 0     ;
     margin-top  :20px   ;
     background-color:white;
@@ -24,7 +24,7 @@
 .speech input
 {
     border       : 0            ;
-    width        : 260px        ;
+    width        : 350px        ;
     display      : inline-block ;
     height       : 40px         ;
     padding-left : 10px         ;
