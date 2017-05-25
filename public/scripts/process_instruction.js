@@ -38,7 +38,12 @@
 		var chartSearch = text.substring(14);
 		bbCommand = "TC NLP " + chartSearch;
     }
-
+	else if (text.indexOf("Amy") === 0)
+    {
+		var chartSearch = text.substring(3);
+		bbCommand = "AIME " + chartSearch;
+    }
+    
 	console.log("bbCommand : " + bbCommand);
 	
 	if (bbCommand)
